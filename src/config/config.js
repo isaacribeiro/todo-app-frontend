@@ -1,5 +1,5 @@
 module.exports = {
-    backend: {
-        URI: process.env.BACKEND || 'http://localhost:3003/api/todos'
+    API: {
+        URI: process.env.API || 'http://localhost:3003/api/todos'
     }
 }

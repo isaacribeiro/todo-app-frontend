@@ -5,7 +5,7 @@ import TodoForm from './todoForm'
 import TodoList from '././todoList'
 import Backend from '../config/config'
 
-const URL = Backend.URI;
+const URL = API.URI;
 
 export default class Todo extends Component {
     constructor(props){
